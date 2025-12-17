@@ -19,9 +19,13 @@ télécharger le projet zip à partir du dépot git:
 
 ################################################################################################## 
 ############## Accès admin: http://localhost:8000/admin
+
 un super user est créé automatiquement au moment du build:
+
 username: admin
+
 email: test@test.com
+
 password: ChangeMe15698@
 
 
