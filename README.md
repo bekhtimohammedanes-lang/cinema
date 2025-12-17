@@ -13,6 +13,10 @@ télécharger le projet zip à partir du dépot git:
 
 >> docker compose build --no-cache
 
+>> docker rm -f cinema_db
+
+>> docker rm -f cinema_web
+
 >> docker compose up
 
 
