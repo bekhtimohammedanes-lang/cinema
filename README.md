@@ -9,6 +9,21 @@ télécharger le projet zip à partir du dépot git:
 
 >> cd cinema_project
 
+Dans ce répertoire créer un fichier nomé .env avec le contenu suivant:
+
+# Django
+DJANGO_SECRET_KEY=your_secret_key_here
+DJANGO_DEBUG=True
+# PostgreSQL
+POSTGRES_DB=cinema
+POSTGRES_USER=cinema
+POSTGRES_PASSWORD=cinema
+POSTGRES_HOST=db
+POSTGRES_PORT=5432
+# TMDb
+TMDB_API_KEY=d6dcc8a30da1318904acfddad497190c
+
+
 >> docker compose down -v
 
 >> docker compose build --no-cache
