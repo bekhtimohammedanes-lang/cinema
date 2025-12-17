@@ -5,9 +5,9 @@ télécharger le projet zip à partir du dépot git:
 
 
 
->> unzip cinema_project.zip -d .
+>> unzip cinema_main.zip -d .
 
->> cd cinema_project
+>> cd cinema_main
 
 >> docker compose down -v
 
