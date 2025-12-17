@@ -10,7 +10,9 @@ télécharger le projet zip à partir du dépot git:
 >> cd cinema_project
 
 >> docker compose down -v
+
 >> docker compose build --no-cache
+
 >> docker compose up
 
 
